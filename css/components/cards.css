@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  width: 200px;
+  border: 1px solid rgb(230,230,230);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border-radius: 3px;
+  margin: 0px 32px;
+
+}
+
+.card img {
+  width: 120px;
+}
+
+.card p {
+  opacity: .7;
+}
